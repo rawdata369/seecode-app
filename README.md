@@ -1,6 +1,6 @@
 # seeCode
 
-***See the code, never touch it.*** A viewer for code and text files, by [RawData Studio](https://rawdatastudio.com).
+***Look, don't touch.*** A viewer for code and text files, by [RawData Studio](https://rawdatastudio.com).
 
 seeCode shows a file in its syntax and keeps showing it as it changes, while your IDE or an agent works on it somewhere else. It is a viewer, not an editor: it cannot change the file you are looking at. Mark the lines that matter and write notes on them; they stay with seeCode, follow their lines as the file changes, and never go into your file. For the Mac first, then Windows, then Linux.
 
