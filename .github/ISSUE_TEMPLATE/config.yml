@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general chat
+    url: https://github.com/rawdata369/seecode-app/discussions
+    about: Ask anything about seeCode or just say hi.
