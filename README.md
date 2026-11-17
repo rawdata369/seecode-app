@@ -53,7 +53,7 @@ In the build so far, on the Mac:
 ## Roadmap
 | Phase | Status |
 | --- | --- |
-| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back; Hold, Follow and Pause, how live each tab is. Next: workspaces |
+| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back; Hold, Follow and Pause, how live each tab is. Next: marks finished, each place a save changed marked apart |
 | Workspaces, Open in your IDE, knowing the file | Planned |
 | Windows and Linux | Planned |
 
