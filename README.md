@@ -23,7 +23,8 @@ seeCode shows a file in its syntax and keeps showing it as it changes, while you
 ## What's Built So Far
 In the build so far, on the Mac:
 - **Open a file** and see it in its colours, in 220 languages, with line numbers, in light or dark
-- **Watch it change**: edits made in your editor or by an agent appear as they are saved, and the screen stays on the lines you were reading
+- **Watch it change**: edits made in your editor or by an agent appear as they are saved, and the screen stays on the lines you were reading; a bar beside the line numbers shows what the last save changed
+- **Choose how live each tab is**: Hold keeps your place; Follow goes to each change once the agent stops writing and lights it; Pause freezes the view and counts the changes waiting, landing them all when you resume
 - **Open many files in tabs**: a tab shows a dot when its file changed while you were looking at another
 - **Select and copy** the text; there is no way to type into it
 - **Open large files**: a 100,000-line file opens at once
@@ -52,7 +53,7 @@ In the build so far, on the Mac:
 ## Roadmap
 | Phase | Status |
 | --- | --- |
-| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back. Next: Follow and Pause, how live the view is |
+| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back; Hold, Follow and Pause, how live each tab is. Next: workspaces |
 | Workspaces, Open in your IDE, knowing the file | Planned |
 | Windows and Linux | Planned |
 
