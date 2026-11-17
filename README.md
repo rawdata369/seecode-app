@@ -27,7 +27,8 @@ In the build so far, on the Mac:
 - **Open many files in tabs**: a tab shows a dot when its file changed while you were looking at another
 - **Select and copy** the text; there is no way to type into it
 - **Open large files**: a 100,000-line file opens at once
-- **Mark lines**: click or drag down their numbers. A mark stays with its lines as the file changes around it; if the marked lines themselves change, it turns orange and says so, and you can attach it where it belongs
+- **Mark lines**: click or drag down their numbers. A mark stays with its lines as the file changes around it; if some of its lines change, it stays with the rest, turns orange and says so, and you can attach it where it belongs
+- **Keep marks whose lines were deleted**: they are set aside, with a marker where they were and a Set Aside list in the Marks panel; each comes back by itself when its lines return, or you put it on the lines you choose
 - **Write notes on your marks** in a popover beside the line; a note icon shows beside the line number
 - **Find your marks** in the Marks panel, with Next and Previous Mark and a tick in the scroller where each one is
 - **Reach every marked file** from the Marks panel, open or not: a click opens the file at the mark
@@ -51,7 +52,7 @@ In the build so far, on the Mac:
 ## Roadmap
 | Phase | Status |
 | --- | --- |
-| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel. Next: marks whose lines were deleted, kept aside to put back |
+| Foundations | In progress · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back. Next: Follow and Pause, how live the view is |
 | Workspaces, Open in your IDE, knowing the file | Planned |
 | Windows and Linux | Planned |
 
