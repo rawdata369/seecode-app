@@ -34,7 +34,8 @@ In the build so far, on the Mac:
 - **Find your marks** in the Marks panel, with Next and Previous Mark and a tick in the scroller where each one is
 - **Reach every marked file** from the Marks panel, open or not: a click opens the file at the mark
 - **Open the file in your IDE** at the line you are reading, from a line number, or at a mark; every app on your Mac that opens the file is listed, and seeCode remembers the one you chose
-- **Your files stay yours**: marks and notes are kept by seeCode in a store of its own, never in your file, and seeCode has no way to write to a file it shows
+- **Open a folder as a workspace**: its files in a sidebar beside the code, what your `.gitignore` leaves out hidden (or greyed, if you choose), kept up as files come and go, with a dot beside each marked file; its tabs and the line you were reading in each come back the next time
+- **Your files stay yours**: marks, notes and workspaces are kept by seeCode in a store of its own, never in your file or folder, and seeCode has no way to write to a file it shows
 
 ## From the Build
 <p>
@@ -55,7 +56,7 @@ In the build so far, on the Mac:
 | Phase | Status |
 | --- | --- |
 | Foundations | Done · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back; Hold, Follow and Pause, how live each tab is, with each place a save changed marked apart |
-| Workspaces, Open in your IDE, knowing the file | Under way: Open in your IDE done, November 2026; workspaces next |
+| Workspaces, Open in your IDE, knowing the file | Under way: Open in your IDE and workspaces done, November 2026; knowing whether the file is open elsewhere next |
 | Windows and Linux | Planned |
 
 ## Get Involved
