@@ -36,7 +36,9 @@ In the build so far, on the Mac:
 - **Open the file in your IDE** at the line you are reading, from a line number, or at a mark; every app on your Mac that opens the file is listed, and seeCode remembers the one you chose
 - **Open a folder as a workspace**: its files in a sidebar beside the code, what your `.gitignore` leaves out hidden (or greyed, if you choose), kept up as files come and go, with a dot beside each marked file; its tabs and the line you were reading in each come back the next time
 - **See what is working on the file**: the status line names the agents, editors and terminals working in its folder ("Claude Code and 3 more working here"); a click lists each with its app, its folder and when it started
-- **Your files stay yours**: marks, notes and workspaces are kept by seeCode in a store of its own, never in your file or folder, and seeCode has no way to write to a file it shows
+- **See what last opened or touched the file, and when**: a History panel shows when it was changed, opened, committed and made, and which apps opened it lately; the status line says "Changed 2 minutes ago by Claude Code" when seeCode saw it happen
+- **Look back at earlier versions**: those seeCode saw change, your git commits and your Time Machine backups; click one to see it against the file now, in its colours, kept up as the file keeps changing
+- **Your files stay yours**: marks, notes, workspaces and the versions seeCode saw are kept by seeCode in a store of its own, never in your file or folder, and seeCode has no way to write to a file it shows
 
 ## From the Build
 <p>
@@ -57,7 +59,7 @@ In the build so far, on the Mac:
 | Phase | Status |
 | --- | --- |
 | Foundations | Done · November 2026: a Rust core under a native Mac app; files shown in their colours and followed live; tabs and line numbers; marks and notes that follow their lines, every marked file in one panel; marks whose lines were deleted, kept aside to put back; Hold, Follow and Pause, how live each tab is, with each place a save changed marked apart |
-| Workspaces, Open in your IDE, knowing the file | Under way: Open in your IDE, workspaces and what is working on the file done, November 2026; the file's history on your system next |
+| Workspaces, Open in your IDE, knowing the file | Done · November 2026: workspaces; Open in your IDE at the line you are reading; what is working on the file; what last opened or touched it, and its earlier versions against now |
 | Windows and Linux | Planned |
 
 ## Get Involved
